@@ -1,0 +1,6 @@
+spring:
+  jpa:
+    database-platform: H2
+  data:
+    mongodb:
+      host: localhost
