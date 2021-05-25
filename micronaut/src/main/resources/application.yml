@@ -1,0 +1,12 @@
+datasources:
+  default:
+    dialect: H2
+jpa:
+  default:
+    entity-scan:
+      packages: 'it.discovery.micronaut.model'
+    properties:
+      hibernate:
+        hbm2ddl:
+          auto: update
+        show_sql: true
