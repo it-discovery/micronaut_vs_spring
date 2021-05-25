@@ -3,4 +3,4 @@ spring:
     database-platform: H2
   data:
     mongodb:
-      host: localhost
+      host: mongo
